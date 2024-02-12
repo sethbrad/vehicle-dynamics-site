@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="has-background-grey">
+<html lang="en" class="has-background-dark">
   <!-- maybe componentize the head as well? -->
   <head>
     <meta charset="UTF-8" />
@@ -26,18 +26,41 @@
     <header-component></header-component>
 
     <main>
-      <section class="section">
+      <section class="section has-text-white">
         <div class="container">
+          <p>We are a garage rock band based out of Ames, IA.</p>
+          <br />
+
+          <p>Members:</p>
+          <ul>
+            <li>Chris Merica</li>
+            <li>Vaughn Miller</li>
+            <li>Evan White</li>
+            <li>Cole Hildebrand</li>
+            <li>Seth Braddock</li>
+          </ul>
+          <br />
+
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            accusamus corporis, quae vitae iste perferendis iusto fuga id
-            corrupti facilis doloribus voluptatibus voluptatum consequatur,
-            dolore est quasi ducimus asperiores eum.
+            Here's a sample of one of our performances, courtesy of Mr. Liam
+            Brennen. Be sure to check out his other content!
           </p>
+          <br />
+
+          <!-- fix mobile/sizing on this -->
+          <iframe
+            height="300"
+            width="400"
+            src="https://www.youtube.com/embed/VpNR77IcSso?si=6fPnFa10mAREDcCk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
     </main>
-    
+
     <footer-component></footer-component>
   </body>
 </html>

@@ -19,11 +19,10 @@ class Header extends HTMLElement {
       </div>
 
       <div id="menu" class="navbar-menu">
-        <!-- wip -->
         <a class="navbar-item" href="index.html"> About </a>
         <a class="navbar-item" href="shows.html"> Shows </a>
-        <a class="navbar-item"> Merch </a>
-        <a class="navbar-item"> Contact </a>
+        <a class="navbar-item" href="merch.html"> Merch </a>
+        <a class="navbar-item" href="contact.html"> Contact </a>
       </div>
     </nav>
           `;
