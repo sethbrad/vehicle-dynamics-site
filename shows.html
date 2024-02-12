@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VD Site</title>
+<html lang="en" class="has-background-grey">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vehicle Dynamics</title>
 
     <link
       rel="stylesheet"
@@ -16,14 +16,20 @@
       referrerpolicy="no-referrer"
     />
 
-    <script src="./components.js"></script>
-    <link rel="stylesheet" href="./styles.css"/>
-</head>
-<body>
-    <header-component />
-    <main>
+    <script defer src="./components.js"></script>
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header-component></header-component> 
+
+    <main class="section">
+      <div class="container">
         <p>foo</p>
+      </div>
     </main>
-    <footer-component />
-</body>
+
+    <footer-component></footer-component>
+  </body>
 </html>
